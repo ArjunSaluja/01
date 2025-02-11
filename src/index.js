@@ -7,11 +7,13 @@ import ReactDOM from 'react-dom/client';
 //import Form from './Form';
 //import UseEffect from './UseEffect';
 //import Fetch from './Fetch';
-import Multiplereturn from './Multiplereturn';
+//import Multiplereturn from './Multiplereturn';
+import A from './A';
+
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    {<Multiplereturn/>
+    {<A/>
     }
   </React.StrictMode>
 );
