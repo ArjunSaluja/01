@@ -8,12 +8,13 @@ import ReactDOM from 'react-dom/client';
 //import UseEffect from './UseEffect';
 //import Fetch from './Fetch';
 //import Multiplereturn from './Multiplereturn';
-import A from './A';
+//import A from './A';
+import Usereducer from './Usereducer';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    {<A/>
+    {<Usereducer/>
     }
   </React.StrictMode>
 );
